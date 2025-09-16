@@ -38,3 +38,19 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
 
 a();
 x();
+
+
+
+
+//practice
+console.log('syncronous_1');
+setTimeout(function timeout() {
+    console.log('asyncronous_1');
+},5000);
+
+console.log('syncronous_2');
+setTimeout(function timeout() {
+    console.log('asyncronous_2');
+},10000);
+
+console.log('syncronous_3');
